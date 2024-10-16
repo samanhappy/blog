@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '后端', link: '/backend/microservice/bulkhead' },
+      { text: '后端', link: '/backend/microservice/failure' },
       { text: 'AI', link: '/ai/langchain/agent_tool' },
     ],
 
@@ -20,10 +20,25 @@ export default defineConfig({
           items: [
             {
               text: '服务容错',
-              items: [
-                { text: '断路器模式', link: '/backend/microservice/circuit_breaker' },
-                { text: '舱壁模式', link: '/backend/microservice/bulkhead' },
-              ],
+              link: '/backend/microservice/failure',
+            },
+          ],
+        },
+        {
+          text: 'JAVA',
+          items: [
+            {
+              text: 'ReentrantReadWriteLock',
+              link: '/backend/java/ReentrantReadWriteLock',
+            },
+          ],
+        },
+        {
+          text: '网络',
+          items: [
+            {
+              text: 'Incomplete Certificate Chain',
+              link: '/backend/network/incomplete_certificate_chain',
             },
           ],
         },
@@ -31,9 +46,7 @@ export default defineConfig({
       '/ai/': [
         {
           text: 'LangChain',
-          items: [
-            { text: '智能体工具', link: '/ai/langchain/agent_tool' },
-          ],
+          items: [{ text: '智能体工具', link: '/ai/langchain/agent_tool' }],
         },
       ],
     },

@@ -4,22 +4,22 @@ layout: home
 
 hero:
   name: "青扬的数字世界"
-  text: "记录个人生活、技术总结，每个个体都值得被记住"
-  # tagline: My great project tagline
-  # actions:
-  #   - theme: brand
-  #     text: Markdown Examples
-  #     link: /markdown-examples
-  #   - theme: alt
-  #     text: API Examples
-  #     link: /api-examples
+  text: ""
+  tagline: "成长，体验，分享，爱"
+  actions:
+    - theme: brand
+      text: 开始连接
+      link: /backend/microservice/failure
+    # - theme: alt
+    #   text: 关于我
+    #   link: /about
 
 # features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: 技术总结
+    # details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  # - title: 生活感悟
+    # details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  # - title: 工具使用
+    # details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

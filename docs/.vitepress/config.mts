@@ -10,7 +10,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '后端', link: '/backend/microservice/failure' },
-      { text: 'AI', link: '/ai/develop/cursor' },
+      { text: 'AI', link: '/ai/llm/moe' },
     ],
 
     sidebar: {
@@ -44,6 +44,10 @@ export default defineConfig({
         },
       ],
       '/ai/': [
+        {
+          text: 'LLM',
+          items: [{ text: 'Moe', link: '/ai/llm/moe' }],
+        },
         {
           text: '开发工具',
           items: [{ text: 'Cursor', link: '/ai/develop/cursor' }],
